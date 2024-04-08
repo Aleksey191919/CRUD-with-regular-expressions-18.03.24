@@ -1,0 +1,41 @@
+/** @format */
+
+.hidden {
+  display: none;
+}
+
+.user_row {
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.user_row input {
+  margin-right: 2px;
+}
+
+.user_id {
+  overflow: auto;
+}
+
+#grid {
+  width: 800px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.confirmation-window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
